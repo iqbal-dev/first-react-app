@@ -1,0 +1,58 @@
+.container{
+    width: 100%;
+    margin-left: 50px;
+}
+.bio{}
+.bio h3{
+    font-size: 30px;
+    color: #222222;
+}
+.bio p{
+    font-size: 20px;
+    color: #555555;
+    font-weight: 500;
+}
+
+.skills{
+}
+.skills ul{
+}
+.skills ul li{
+ list-style-type: none;
+ padding: 5px 20px;
+ background-color: aliceblue;
+ display: inline;
+ margin-right: 10px;
+ border-radius: 3px;
+ color: #555555;
+ font-weight: 500;
+ 
+}
+
+.links{
+    margin-bottom: 50px;
+}
+.links ul{
+    
+ list-style-type: none;
+ 
+ text-decoration: none; 
+}
+.links ul li{
+   
+ padding: 5px 20px;
+ /* background-color: aliceblue; */
+ display: inline ;
+ margin-right: 10px;
+ border-radius: 3px;
+ color: #555555;
+ font-weight: 500;
+ 
+}
+.links ul li a{
+    text-decoration: none;
+    transition:.3s ;
+}
+.links ul li a:hover{
+    color: blueviolet;
+}
